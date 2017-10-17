@@ -1,0 +1,122 @@
+body 
+{
+	width: 100%;
+	height: 100%;
+	background-color: skyblue;
+}
+.game_container
+{
+	width: 100%;
+	min-height: 70vh;
+	background-color: yellow;
+	position: relative;
+}
+.group_div
+{
+	width:90%;
+	height: 40%;
+	top: 55%;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: absolute;
+	font-size: 2em;
+}
+.first_div
+{
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	background-color: green;
+}
+.second_div
+{
+	width: 100%;
+	height: 30%;
+	margin-top: 3%;
+	text-align: center;
+	background-color: green;
+}
+.third_div
+{
+	width: 100%;
+	height: 30%;
+	margin-top: 3%;
+	text-align: center;
+	background-color: green;
+}
+
+
+
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575px) { 
+
+	.game_container
+	{
+		margin-top: 20%;
+	}
+	html
+	{
+		12px;
+	}
+
+ }
+
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+
+	.game_container
+	{
+		margin-top: 20%;
+	}
+	html
+	{
+		13px;
+	}
+
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+
+	.game_container
+	{
+		margin-top: 20%;
+	}
+	html
+	{
+		14px;
+	}
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+	.game_container
+	{
+		margin-top: 15%;
+	}
+	html
+	{
+		15px;
+	}
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+	.game_container
+	{
+		margin-top: 15%;
+	}
+	html
+	{
+		16px;
+	}
+
+ }
